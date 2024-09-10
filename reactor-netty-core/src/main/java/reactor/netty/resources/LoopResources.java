@@ -57,7 +57,6 @@ public interface LoopResources extends Disposable {
 			ReactorNetty.IO_SELECT_COUNT,
 			DEFAULT_PENDING_TASK_LOG_THRESHOLD > -1 ? "" + 1 : "" + -1));
 
-
 	/**
 	 * Default value whether the native transport (epoll, kqueue) will be preferred,
 	 * fallback it will be preferred when available.
